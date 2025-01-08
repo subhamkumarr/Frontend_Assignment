@@ -2,7 +2,9 @@
 
 ## Demo
 
-[Watch the Demo Video](https://drive.google.com/file/d/1Bz5pIunUsxdbF6vojtCHfHOfSEfv4Bfm/view?usp=sharing)
+https://github.com/user-attachments/assets/6fd5034f-9564-4614-b712-9e893faf0aec
+
+
 
 ## What are the requirements?
 
