@@ -1,70 +1,88 @@
-# Getting Started with Create React App
+# The Cricketers App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## What are the requirements?
 
-## Available Scripts
+#### Screen: Cricketers
 
-In the project directory, you can run:
+- Display the list of cricketers.
+- The list should have pagination with page size of 10.
+- Each item in the list should display below details
+	- Name
+	- Type
+	- Points
+	- Rank
+	- Age
+- The list should support sorted by
+	- Name
+	- Rank
+	- Age
+- The list should support filter by (Optional, but have bonus points)
+	- Type
+- The list should support search by Name (Optional, but have bonus points)
+- Screen should retain the filter & search criteria on screen refresh
+- Cricketer Name should be a link which should open the Cricketer Details screen
 
-### `npm start`
+#### Screen: Cricketer Details
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- The details screen should display below details
+	- Name
+	- Description
+	- Type
+	- Points
+	- Rank
+	- Date of Birth
+	- Age
+- The details screen should have a `Back to Cricketers` button/link
+- Optional, but have bonus points:
+	- Display similar players matching the `Type` of the player. Like, if a Batsman details are displayed then display other Batsman
+	- Maximum 5 similar players to be displayed
+	- Similar players details to display
+		- Name
+ 		- Points
+  		- Rank
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## How to get the list of players?
 
-### `npm test`
+The API methods are available in the files. These methods return a Promise, which is as good as an API call.
+- get-players.ts
+- get-players.js
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## What tech stack to be used?
 
-### `npm run build`
+- React JS 16+
+- The app can be setup using tools like CreateReactApp, Vite etc
+- Bootstrap/AntD/MaterialUI or any other UI library
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+This is a minimum tech stack. You are free to add other stacks, like Icons, Styling etc.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## What gives bonus points?
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Typescript
+- Unit tests
 
-### `npm run eject`
+## What is assessed?
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Complete implementation of the requirements, ideally 100%
+- Coding principals used
+- Components/hooks structure
+- Cleanliness of the code
+- Appearance & aesthetics
+- The commit messages: We believe in reading git commit messages first before reviewing the code. This helps us understand how the code got matured and your thought process behind it.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Submission timeline
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- There are no time limits defined to complete the exercise. But you must note how much time you spent on it to complete it and mention that time when you submit it.
+- Usually, we expect to receive the solution `within 7 days`, once you receive the assignment.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Remember
 
-## Learn More
+- The exercise is expected to be a Web Application
+- The exercise needs to be done on ReactJS stack
+- The web application must run without any errors
+- Provide clear instructions to run the web application
+- Again, we believe in reading git commit messages first before reviewing the code. This helps us understand how the code got matured and your thought process behind it.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Use your own imagination to design the screens as you would like to.
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**!! Happy Coding !!**
