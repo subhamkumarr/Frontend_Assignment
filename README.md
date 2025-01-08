@@ -1,8 +1,11 @@
 # The Cricketers App
 
-## Demo
+## Demo Video:
 
 https://github.com/user-attachments/assets/6fd5034f-9564-4614-b712-9e893faf0aec
+
+## Working prototype:
+https://frontend-assignment-teal-one.vercel.app/
 
 ## Set up guide:
 1. Clone the repository `git clone https://github.com/subhamkumarr/Frontend_Assignment.git`
