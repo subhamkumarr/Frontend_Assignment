@@ -4,6 +4,12 @@
 
 https://github.com/user-attachments/assets/6fd5034f-9564-4614-b712-9e893faf0aec
 
+## Set up guide:
+1. Clone the repository `git clone https://github.com/subhamkumarr/Frontend_Assignment.git`
+2. Run `npm install` to install the dependencies.
+3. Navigate to the project directory with `cd cricket`
+4. Run `npm start`.
+5. The server will start at `localhost:3000`.
 
 
 ## What are the requirements?
