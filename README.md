@@ -1,9 +1,8 @@
 # The Cricketers App
 
 ## Demo
-`Wait for 15 second to start the actual recording`
 
-<!-- [Watch the Demo Video](https://drive.google.com/file/d/1Bz5pIunUsxdbF6vojtCHfHOfSEfv4Bfm/view?usp=sharing) -->
+[Watch the Demo Video](https://drive.google.com/file/d/1Bz5pIunUsxdbF6vojtCHfHOfSEfv4Bfm/view?usp=sharing)
 
 ## What are the requirements?
 
